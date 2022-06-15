@@ -9,6 +9,9 @@ function Header() {
       <h1>Moi Shadrack</h1>
       <h5 className='text-light'>Fullstack Developer</h5>
       <CTA/>
+      <div className='me'>
+     <img src='' alt='' />
+      </div>
       </div>
 
     </header>
