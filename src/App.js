@@ -16,8 +16,8 @@ class App extends Component {
      <Nav/>
      <About/>
      <Experience/>
-     <Portfolio/>
      <Services/>
+     <Portfolio/>
      <Contact/>
     <Footer/>
       </div>
