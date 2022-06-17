@@ -27,6 +27,9 @@ border: 1px solid transparent;
     row-gap: 2rem;
 
 }
+#al{
+    color: white;
+}
 .experience__details{
     display: flex;
     gap: 1rem;

@@ -11,33 +11,45 @@ function experience() {
        <div className='experience__content'>
           <article className='experience__details'>
            <BsPatchCheckFill/>
+           <div>
            <h4>HTML</h4>
-           <small className='text-light'>Experienced</small>
+           <small className='text-light' id='al'>Experienced</small>
+           </div>
           </article>
           <article className='experience__details'>
            <BsPatchCheckFill/>
+           <div>
            <h4>CSS</h4>
-           <small className='text-light'>Experienced</small>
+           <small className='text-light' id='al'>Experienced</small>
+           </div>
           </article>
           <article className='experience__details'>
            <BsPatchCheckFill/>
-           <h4>Bootstrap</h4>
-           <small className='text-light'>Experienced</small>
+          <div>
+          <h4>Bootstrap</h4>
+           <small className='text-light' id='al'>Experienced</small>
+          </div>
           </article>
           <article className='experience__details'>
            <BsPatchCheckFill/>
+           <div>
            <h4>Javascript</h4>
-           <small className='text-light'>Intermediate</small>
+           <small className='text-light' id='al'>Intermediate</small>
+           </div>
           </article>
           <article className='experience__details'>
            <BsPatchCheckFill/>
+           <div>
            <h4>React</h4>
-           <small className='text-light'>Intermediate</small>
+           <small className='text-light' id='al'>Intermediate</small>
+           </div>
           </article>
           <article className='experience__details'>
            <BsPatchCheckFill/>
+           <div>
            <h4>Angular</h4>
-           <small className='text-light'>Experienced</small>
+           <small className='text-light' id='al'>Experienced</small>
+           </div>
           </article>
          </div>
        </div>
@@ -49,28 +61,38 @@ function experience() {
          <div className='experience__content'>
           <article className='experience__details'>
            <BsPatchCheckFill/>
+           <div>
            <h4>RESTfull API</h4>
-           <small className='text-light'>Experienced</small>
+           <small className='text-light' id='al'>Experienced</small>
+           </div>
           </article>
           <article className='experience__details'>
            <BsPatchCheckFill/>
+           <div>
            <h4>Django</h4>
-           <small className='text-light'>Experienced</small>
+           <small className='text-light' id='al'>Experienced</small>
+           </div>
           </article>
           <article className='experience__details'>
            <BsPatchCheckFill/>
+           <div>
            <h4>Python</h4>
-           <small className='text-light'>Experienced</small>
+           <small className='text-light' id='al'>Experienced</small>
+           </div>
           </article>
           <article className='experience__details'>
            <BsPatchCheckFill/>
-           <h4>Flask</h4>
-           <small className='text-light'>Intermediate</small>
+          <div>
+          <h4>Flask</h4>
+           <small className='text-light' id='al'>Intermediate</small>
+          </div>
           </article>
           <article className='experience__details'>
            <BsPatchCheckFill/>
+           <div>
            <h4>Postgres</h4>
-           <small className='text-light'>Experienced</small>
+           <small className='text-light' id='al'>Experienced</small>
+           </div>
           </article>
          </div>
        </div>
