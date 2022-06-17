@@ -81,7 +81,7 @@ function experience() {
            </div>
           </article>
           <article className='experience__details'>
-           <BsPatchCheckFill/>
+           <BsPatchCheckFill />
           <div>
           <h4>Flask</h4>
            <small className='text-light' id='al'>Intermediate</small>
