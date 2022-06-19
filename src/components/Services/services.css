@@ -41,9 +41,30 @@
 }
 .service__list p{
     font-size: 0.9rem;
-    
+
 }
 .service__list{
 
     padding: 2rem;
 }
+
+
+/* media query */
+
+@media screen and (max-width: 1024px){
+    .service__container{
+        display: inline;
+        gap: 1rem;
+      }
+    .service{
+      height: auto;
+    }
+    }
+    
+    @media screen and (max-width: 600px){
+      .service__container{
+        display: inline;
+        gap: 1rem;
+      }
+     
+      }
