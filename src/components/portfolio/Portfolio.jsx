@@ -6,22 +6,76 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
+
+
+const data= [
+  {
+    id: 1,
+  image: IMG1,
+  title: 'hood',
+  github: 'github.com/12moi/hood',
+  live:'http:/hood'
+  },
+  {
+    id: 2,
+  image: IMG2,
+  title: 'hood',
+  github: 'github.com/12moi/hood',
+  live:'http:/hood'
+  },
+  {
+    id: 3,
+  image: IMG3,
+  title: 'hood',
+  github: 'github.com/12moi/hood',
+  live:'http:/hood'
+  },
+  {
+    id: 4,
+  image: IMG4,
+  title: 'hood',
+  github: 'github.com/12moi/hood',
+  live:'http:/hood'
+  },
+  {
+    id: 5,
+  image: IMG5,
+  title: 'hood',
+  github: 'github.com/12moi/hood',
+  live:'http:/hood'
+  },
+  {
+    id: 6,
+  image: IMG6,
+  title: 'hood',
+  github: 'github.com/12moi/hood',
+  live:'http:/hood'
+  },
+]
+
+
 function Portfolio() {
   return (
     <section id='portfolio'>
       <h5>My Recent Projects</h5>
       <h2>Portfolio</h2>
       <div className='container portfolio__container'>
-       <article className='portfolio__item'>
+       {
+        data.map(({id, title, image, github, live})=>{
+          return(
+            <article key={id} className='portfolio__item'>
         <div className='portfolio__item-image'>
-         <img src={IMG1} alt='' />
+         <img src={image} alt={title} />
         </div>
-        <h3>This is a portfolio item title</h3>
+        <h3>{title}</h3>
         <div className='portfolio-cta'>
-        <a href='' className='btn' target='_blank'> Github</a>
-        <a href='' className='btn btn-primary' target='_blank'>Live link</a>
+        <a href={github} className='btn' target='_blank'> Github</a>
+        <a href={live} className='btn btn-primary' target='_blank'>Live link</a>
         </div>
        </article>
+          )
+        })
+       }
       </div>
     </section>
   )
