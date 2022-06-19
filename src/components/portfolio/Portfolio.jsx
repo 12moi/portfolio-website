@@ -17,8 +17,10 @@ function Portfolio() {
          <img src={IMG1} alt='' />
         </div>
         <h3>This is a portfolio item title</h3>
+        <div className='portfolio-cta'>
         <a href='' className='btn' target='_blank'> Github</a>
         <a href='' className='btn btn-primary' target='_blank'>Live link</a>
+        </div>
        </article>
       </div>
     </section>
