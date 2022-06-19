@@ -7,7 +7,7 @@ import {GrTwitter} from 'react-icons/gr'
 function Footer() {
   return (
     <footer>
-      <a href='' className='footer__logo'>Moi</a>
+      <a href='' className='footer__logo'>MOI</a>
       <ul className='pernalinks'>
         <li><a href='#'>Home</a></li>
         <li><a href='#about'>About</a></li>
@@ -20,6 +20,11 @@ function Footer() {
         <a href='https://twitter.com'><GrTwitter/></a>
         <a href='https://instagram.com'><BsInstagram/></a>
         
+      </div>
+      <div className='footer__copyright'>
+        <small>
+          &copy; MOI. All rights reserved
+        </small>
       </div>
     </footer>
   )
