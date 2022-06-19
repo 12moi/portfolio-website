@@ -46,5 +46,26 @@ footer a{
 .footer__copyright{
     margin-bottom: 4rem;
     color: var(--color-bg);
-    
+
 }
+
+/* media query */
+
+@media screen and (max-width: 1024px){
+    .portfolio__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+      }
+   
+    }
+    
+    @media screen and (max-width: 600px){
+        .pernalinks{
+            flex-direction: column;
+            gap: 1.5rem;
+          }
+        .footer__social{
+            margin-bottom: 2.6rem;
+        }
+     
+      }
