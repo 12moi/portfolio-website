@@ -18,6 +18,69 @@ function Services() {
 
             </p>
           </li>
+          <li>
+            <BsCheck className='service__list-icon'/>
+            <p>lorem thaa qaqj jqajj aa aav d
+
+            </p>
+          </li>
+          <li>
+            <BsCheck className='service__list-icon'/>
+            <p>lorem thaa qaqj jqajj aa aav d
+
+            </p>
+          </li>
+          <li>
+            <BsCheck className='service__list-icon'/>
+            <p>lorem thaa qaqj jqajj aa aav d
+
+            </p>
+          </li>
+          <li>
+            <BsCheck className='service__list-icon'/>
+            <p>lorem thaa qaqj jqajj aa aav d
+
+            </p>
+          </li>
+        </ul>
+       </article>
+       {/* End of UI/UX */}
+
+       <article className='service'>
+        <div className='service__head'>
+          <h3>Web Development</h3>
+        </div>
+        <ul className='service__list'>
+          <li>
+            <BsCheck className='service__list-icon'/>
+            <p>lorem thaa qaqj jqajj aa aav d
+
+            </p>
+          </li>
+          <li>
+            <BsCheck className='service__list-icon'/>
+            <p>lorem thaa qaqj jqajj aa aav d
+
+            </p>
+          </li>
+          <li>
+            <BsCheck className='service__list-icon'/>
+            <p>lorem thaa qaqj jqajj aa aav d
+
+            </p>
+          </li>
+          <li>
+            <BsCheck className='service__list-icon'/>
+            <p>lorem thaa qaqj jqajj aa aav d
+
+            </p>
+          </li>
+          <li>
+            <BsCheck className='service__list-icon'/>
+            <p>lorem thaa qaqj jqajj aa aav d
+
+            </p>
+          </li>
         </ul>
        </article>
       </div>
