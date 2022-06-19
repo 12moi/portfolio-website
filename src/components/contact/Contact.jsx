@@ -13,19 +13,19 @@ const Contact = () => {
       <div className='container contact__container'>
         <div className='contact__options'>
         <article className='contact__option'>
-          <MdOutlineMail/>
+          <MdOutlineMail className='contact__option-icon'/>
            <h4>Email</h4>
            <h5>moishadrack@gmail.com</h5>
            <a href='mailto:moishadrack.com' target="_blank" className=''>Send a Message</a>
         </article>
         <article className='contact__option'>
-          <BsLinkedin/>
+          <BsLinkedin className='contact__option-icon'/>
            <h4>LinkIn</h4>
            <h5>Moi Shadrack profile</h5>
            <a href='www.linkedin.com/in/moi-shadrack-8451a8227' target="_blank" className=''>Send a Message</a>
         </article>
         <article className='contact__option'>
-          <FaWhatsappSquare/>
+          <FaWhatsappSquare className='contact__option-icon'/>
            <h4>WhatsApp</h4>
            <h5>Send me message via WhatsApp</h5>
            <a href='https://api.whatsapp.com/send?phone=+254743235319' target="_blank" className=''>Send a Message</a>
