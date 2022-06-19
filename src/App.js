@@ -5,7 +5,7 @@ import Experience from './components/Experience/Experience'
 import Header  from './components/Header/Header'
 import Contact from './components/Contact/Contact'
  import Portfolio from './components/Portfolio/Portfolio'
-import Services from './components/Services/Services'
+// import Services from './components/Services/Services'
 import Footer from './components/Footer/Footer'
 import { Component } from 'react';
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
      <Nav/>
      <About/>
      <Experience/>
-     <Services/>
+     {/* <Services/> */}
      <Portfolio/>
      <Contact/>
     <Footer/>
