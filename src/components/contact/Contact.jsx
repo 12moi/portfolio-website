@@ -1,4 +1,6 @@
 import React from 'react'
+import  { useRef } from 'react';
+import emailjs from 'emailjs-com'
 import './contact.css'
 import {MdOutlineMail} from 'react-icons/md'
 import {BsLinkedin} from 'react-icons/bs'
@@ -6,6 +8,22 @@ import {FaWhatsappSquare} from 'react-icons/fa'
 
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_vj9w8b9', 'template_gl1cfqb', form.current, 'llt8xd5VV0kMCfTju')
+    e.target.reset()
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+
+
   return (
     <section id='contact'>
       <h5>Get in Touch</h5>
@@ -33,7 +51,7 @@ const Contact = () => {
         </div>
         {/* End of contact option */}
 
-        <form action=''>
+        <form ref={form}  onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea type="message" name='message'  rows="7" placeholder='Your message' required></textarea>
