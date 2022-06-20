@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/about-me1.jpg'
 import {FaAward} from 'react-icons/fa'
 import {VscNewFolder} from 'react-icons/vsc'
 
@@ -31,10 +31,7 @@ const About = () => {
        </article>
       </div>
       <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-optio, eaque rerum! Provident similique accusantium nemo autem.
+      I am a tech-driven individual, responsible, and committed software engineer, with an a-get-it-done, on-time and high-quality product spirit to implement and deliver an amazing web applications.
       </p>
 
       <a href='#contact' className='btn btn-primary'>Let's Talk</a>

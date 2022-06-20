@@ -3,7 +3,10 @@ import './nav.css'
 import {FaHome} from 'react-icons/fa'
 import {AiOutlineUser} from 'react-icons/ai'
 import {BiBook} from 'react-icons/bi'
-import {RiServiceLine} from 'react-icons/ri'
+// import {RiServiceLine} from 'react-icons/ri'
+
+// A young woman-oriented, responsible and committed software engineer, with a-get-it-done, on-time and high-quality product spirit to implement and deliver back-end and amazing web applications using different programming languages and technologies.?
+
 import {BiMessageDetail} from 'react-icons/bi'
 import {useState} from 'react'
 function Nav() {
