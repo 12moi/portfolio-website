@@ -50,6 +50,10 @@ header{
     font-size: 0.9rem;
     transform: rotate(90deg);
 }
+#dev{
+    color: var(--color-primary);
+    font-size: 1.1rem;
+}
 
 
 @media screen and (max-width: 1024px){

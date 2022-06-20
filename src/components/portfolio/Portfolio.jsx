@@ -5,7 +5,7 @@ import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG7 from '../../assets/portfolio7.jpg'
 
 
 const data= [
@@ -40,13 +40,13 @@ const data= [
   {
     id: 5,
   image: IMG5,
-  title: 'News_app',
+  title: 'News App',
   github: 'https://github.com/12moi/News-App',
   live:'https://moinews.herokuapp.com/'
   },
   {
     id: 6,
-  image: IMG6,
+  image: IMG7,
   title: 'Django RESTful API',
   github: 'https://github.com/12moi/worklinks',
   live:'http:/moiwork.herokuapp.com'
@@ -70,7 +70,7 @@ function Portfolio() {
         <h3>{title}</h3>
         <div className='portfolio-cta'>
         <a href={github} className='btn' target='_blank'> Github</a>
-        <a href={live} className='btn btn-primary' >Live link</a>
+        <a href={live} className='btn btn-primary' target='_blank'>Live link</a>
         </div>
        </article>
           )

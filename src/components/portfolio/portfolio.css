@@ -17,7 +17,7 @@
 }
 .portfolio__item-image{
     border-radius: 1.5rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 .portfolio__item h3{
