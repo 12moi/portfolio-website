@@ -12,44 +12,44 @@ const data= [
   {
     id: 1,
   image: IMG1,
-  title: 'hood',
-  github: 'github.com/12moi/hood',
-  live:'http:/hood'
+  title: 'Github Search',
+  github: 'https://github.com/12moi/git-search',
+  live:'https://12moi.github.io/git-search/user-profile'
   },
   {
     id: 2,
   image: IMG2,
-  title: 'hood',
-  github: 'github.com/12moi/hood',
-  live:'http:/hood'
+  title: 'Pictureshare App',
+  github: 'https://github.com/12moi/picture-world',
+  live:'picturesharem.herokuapp.com/'
   },
   {
     id: 3,
   image: IMG3,
   title: 'hood',
   github: 'github.com/12moi/hood',
-  live:'http:/hood'
+  live:'https://hood12.herokuapp.com/account/login/?next=/'
   },
   {
     id: 4,
   image: IMG4,
-  title: 'hood',
-  github: 'github.com/12moi/hood',
-  live:'http:/hood'
+  title: 'Blog App',
+  github: 'https://github.com/12moi/Blog',
+  live:'kelord-blog.herokuapp.com/'
   },
   {
     id: 5,
   image: IMG5,
-  title: 'hood',
-  github: 'github.com/12moi/hood',
-  live:'http:/hood'
+  title: 'News_app',
+  github: 'https://github.com/12moi/News-App',
+  live:'https://moinews.herokuapp.com/'
   },
   {
     id: 6,
   image: IMG6,
-  title: 'hood',
-  github: 'github.com/12moi/hood',
-  live:'http:/hood'
+  title: 'Django RESTful API',
+  github: 'https://github.com/12moi/worklinks',
+  live:'http:/moiwork.herokuapp.com'
   },
 ]
 
@@ -70,7 +70,7 @@ function Portfolio() {
         <h3>{title}</h3>
         <div className='portfolio-cta'>
         <a href={github} className='btn' target='_blank'> Github</a>
-        <a href={live} className='btn btn-primary' target='_blank'>Live link</a>
+        <a href={live} className='btn btn-primary' >Live link</a>
         </div>
        </article>
           )
