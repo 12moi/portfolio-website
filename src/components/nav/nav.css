@@ -30,3 +30,20 @@ nav a.active{
     background: var(--color-primary);
     color: var(--color-bg);
 }
+
+/* media query */
+
+@media screen and (max-width: 1024px){
+    nav{
+     display: inline;
+     justify-content: center;
+     gap: 0.2rem;
+
+    }
+    
+     }
+     
+     @media screen and (max-width: 600px){
+         
+         
+       }

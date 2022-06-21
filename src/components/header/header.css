@@ -60,6 +60,12 @@ header{
     header{
       height: 68vh;
     }
+    .me{
+        height: fit-content;
+        justify-items: center;
+        width: auto;
+        height: auto;
+    }
     section{
       margin-top: 6rem;
     }
